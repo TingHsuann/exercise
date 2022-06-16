@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(250, 186, 186));
+    
+}
+
+.wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* button{
+    width:150px;
+    height:50px;
+    /* margin: 0 400px auto; 
+} */
+:root {
+    /* color */
+    --bg-color: rgb(243, 248, 253);
+    --head-color: rgb(88, 126, 250);
+    --con-color: rgb(252, 145, 24);
+    --text-color: rgb(6, 94, 129);
+}
+
+/* 局部設定 */
+
+form {
+    padding: 30px 70px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--head-color);
+    padding-bottom: 20px;
+    border-bottom: 3px var(--text-color) solid;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 0 0 15px 0;
+    margin: 40px 0 0 0 ;
+    color: var(--head-color);
+}
+
+label {
+    padding: 20px 0;
+}
+
+
+/* 個人資料 */
+input[type=text], input[type=email] {
+    width: calc(100% - 3.5em);
+    margin: 20px 0;
+}
+input[type=password]{
+    width: calc(82% + 0.2em);
+    margin: 20px 0;
+}
+/* .pure-button {
+    margin: 40px 0 0 0;
+} */
